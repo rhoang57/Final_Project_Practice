@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import {TextArea, FormBtn} from "../Form";
+import LastTextPreview from "../LastTextPreview";
 
 
 class AddText extends Component {
@@ -8,8 +9,7 @@ class AddText extends Component {
       return (
             <>
             <div className="add-mode-div">
-                {this.props.lastblocktext}
-              
+              <LastTextPreview previewtext={"test"} />
               <TextArea />
               <FormBtn children={"submit"}/>
               </div>

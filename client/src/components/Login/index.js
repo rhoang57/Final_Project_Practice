@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 class Login extends Component {
   render() {
@@ -39,9 +40,9 @@ class Login extends Component {
               </form>
               <p className="lead mt-4">
                 No Account?{" "}
-                <a href="/users/register" className="text-primary">
+                <Link to="/users/register" className="text-primary">
                   Register
-                </a>
+                </Link>
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ function Navbar() {
               <i class="fas fa-book-reader"></i>     read
               </Link>
         </div>
-        <div className="login-link"><ProfileNav link={"http://localhost:3000/users/login"}/></div>
+        <div className="login-link"><ProfileNav link={"/users/login"}/></div>
       </nav>
     );
   }
